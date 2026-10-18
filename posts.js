@@ -19,5 +19,20 @@ const publicaciones = [
     archivo: "entradas/otra-demo.js",
     fecha: "2026-13-15",
     resumen: "Aca se presentaran los temas de los temas proximos reescribir despues"
+  },
+
+  {
+    id: "02f1",
+    titulo: "Factorización I",
+    archivo: "entradas/factorizacion_1.js",
+    fecha: "2026-10-17",
+    resumen: "Término común, trinomio cuadrado perfecto y diferencia de cuadrados."
   }
+
+
+
+
+
+
+
 ];
