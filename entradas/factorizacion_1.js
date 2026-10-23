@@ -30,7 +30,7 @@ contenidoEntrada = `
         <li>6x · 3x = 18x<sup>2</sup></li>
         <li>6x · (−1) = −6x</li>
     </ul>
-    <p>Junto todo: 12x<sup>3</sup> + 18x<sup>2</sup> − 6x ✔ es la expresión original.</p>
+    <p>Junto todo: 12x<sup>3</sup> + 18x<sup>2</sup> − 6x es la expresión original.</p>
 
     <h3>2. Trinomio cuadrado perfecto</h3>
     <p><b>Cómo reconocerlo:</b> tiene 3 términos. El primero y el último tienen raíz
@@ -46,7 +46,7 @@ contenidoEntrada = `
     <ol>
         <li>Raíz de 16x<sup>2</sup> = 4x</li>
         <li>Raíz de 25 = 5</li>
-        <li>Doble producto: 2 · 4x · 5 = 40x ✔ (coincide con el de en medio)</li>
+        <li>Doble producto: 2 · 4x · 5 = 40x (coincide con el de en medio)</li>
         <li>El de en medio es negativo, entonces el binomio lleva resta.</li>
         <li>Resultado: (4x − 5)<sup>2</sup></li>
     </ol>

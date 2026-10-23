@@ -22,14 +22,22 @@ const publicaciones = [
   },
 
   {
-    id: "02f1",
+    id: "factorizacion",
     titulo: "Factorización I",
     archivo: "entradas/factorizacion_1.js",
     fecha: "2026-10-17",
     resumen: "Término común, trinomio cuadrado perfecto y diferencia de cuadrados."
+  },
+
+  {
+    id: "03f2",
+    titulo: "Factorización II",
+    archivo: "entradas/factorizacion_2.js",
+    fecha: "2026-10-22",
+    resumen: "Suma y diferencia de cubos, trinomios x² + bx + c, aspa simple y estrategia de factorización."
   }
 
-
+  
 
 
 
