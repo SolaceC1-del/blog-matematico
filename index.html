@@ -107,6 +107,37 @@
         .cambio-color {
             color: #c0392b;
         }
+
+        /* Tarjeta de herramientas */
+        .herramienta {
+    display: block;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 12px;
+    color: #1a5276;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+         }
+
+        .herramienta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+         }
+
+        .herramienta strong {
+    display: block;
+    font-size: 18px;
+        }
+
+         .herramienta span {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+        }
+        
     </style>
 </head>
 <body>
@@ -166,6 +197,8 @@
         function resaltarElemento(elemento) {
             elemento.classList.toggle('resaltado');
         }
+
+        
     </script>
 </body>
 </html>
