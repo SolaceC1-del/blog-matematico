@@ -65,16 +65,40 @@ function pendiente(nombre, workshop) {
  */
 function sumar(A, B) {
   // TODO Workshop 1
-  pendiente('sumar', 'Workshop 1');
+  //pendiente('sumar', 'Workshop 1');
+  if (!mismoOrden(A, B)) {
+    throw new error('Para sumar, A y B deben tener el mismo orden.')
+  }
+  const [m, n] = orden(A); //regresa lista de la fila y la columna
+  const R = crearMatriz(m, n);
+  // sumar componente a componente
+  for (let i = 0; i < m; i++) { //vamos desde fila "0". hasta la fila "m"
+    for (let j = 0; j < n; j++) { // vamos desde la columna "0". hasta la columna "n"
+      R[i][j] = A[i][j] + B[i][j];
+    }
+  }
+  return R;
 }
 
 /**
- * Resta A − B elemento con elemento.
+ * Resta A - B elemento con elemento.
  * Misma condición que la suma: mismo orden.
  */
 function restar(A, B) {
   // TODO Workshop 1
-  pendiente('restar', 'Workshop 1');
+  //pendiente('restar', 'Workshop 1');
+  if (!mismoOrden(A, B)) {
+    throw new error('Para sumar, A y B deben tener el mismo orden.')
+  }
+  const [m, n] = orden(A); //regresa lista de la fila y la columna
+  const R = crearMatriz(m, n);
+  // sumar componente a componente
+  for (let i = 0; i < m; i++) { //vamos desde fila "0". hasta la fila "m"
+    for (let j = 0; j < n; j++) { // vamos desde la columna "0". hasta la columna "n"
+      R[i][j] = A[i][j] - B[i][j];
+    }
+  }
+  return R;
 }
 
 /**
